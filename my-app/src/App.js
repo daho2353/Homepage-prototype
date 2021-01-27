@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Home from './Home.js';
 import Resume from './Resume.js';
+import Portfolio from './Portfolio.js';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </nav>
       <Home/>
       <Resume/>
+      <Portfolio/>
     </div>
   );
 }

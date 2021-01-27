@@ -66,6 +66,28 @@ function Resume()
                     <li> World Market: Sept 2017 - May 2018 </li>
                 </ul>
             </section>
+            <section className ="Skills-Container">
+                <h4> Skills: </h4>
+                <p> Icon, Skill, Experience </p>
+                <p> Dedication, Problem Solving, Collaboration, Critical Thinking, Hard Work, Leadership</p>
+            </section>
+            <section className ="Extracurricular-Container">
+                <h4> Extracurricular Activites </h4>
+                <ul>
+                    <li> Karate March 2008 - Jan 2012 (Achieved Black Belt)</li>
+                    <li> Robotics Oct 2016 - Feb 2017 </li>
+                    <li> Award winning marching band and winterline Aug 2013 - Apr 2015 </li>
+                    <li> multiple community service projects </li>
+                    <li> sold the rights to a board game idea, developed with a team 2019</li>
+                </ul>
+            </section>
+            <section className ="References-Container">
+                <h4> References: </h4>
+                <ul>
+                    <li> Shawn Hunter: Director of Operations-GNOC at GTT, 720-514-2651, shawn.hunter@gtt.net</li>
+                    <li> Nicholas Stienkamp: Team Leader of OIT DLS Studios at CU Boulder, 303-735-5634, steinkamp@colorado.edu</li>
+                </ul>
+            </section>
         </section>
     )
 }

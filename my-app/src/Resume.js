@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Resume()
+function Resume(props)
 {
-    return(
+    if (props.activeCheck === "Resume") return(
         <section className="Resume-Container">
         <h2> Resume </h2>
             <section className="Education-Container"> 
@@ -90,6 +90,9 @@ function Resume()
             </section>
         </section>
     )
+    else return(
+        <p></p>
+      )
 }
 
 export default Resume;

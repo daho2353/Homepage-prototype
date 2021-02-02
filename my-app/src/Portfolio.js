@@ -1,10 +1,9 @@
 import React from 'react';
-import { useState } from 'react';
 import Project from './Project.js';
 
-function Portfolio()
+function Portfolio(props)
 {
-    return(
+    if (props.activeCheck === "Portfolio") return(
         <section className = "Portfolio-container">
             <header>
                 <h4> Software Development Projects</h4>
@@ -12,6 +11,9 @@ function Portfolio()
             <Project title="hey" website="_blank" image="title.jpg" projectText="words"/>
         </section>
     )
+    else return(
+        <p></p>
+      )
 }
 
 export default Portfolio;

@@ -1,8 +1,9 @@
 import React from 'react';
 
-function Home()
+function Home(props)
 {
-    return(
+    console.log(props.activeCheck)
+    if (props.activeCheck === "Home") return(
     <section className="Home-Container">
     <h2> About me </h2>
     <img height="300px" width="300px"/> 
@@ -15,6 +16,9 @@ function Home()
     <a href="https://github.com/daho2353"><img src="Project2/img/github.png" height="50px" width="50px"/></a>
   </section>
     )
+  else return(
+    <p></p>
+  )
 }
 
 export default Home;

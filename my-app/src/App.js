@@ -10,15 +10,16 @@ import { useState } from 'react';
 
 function App() {
   const[currentPage, setPage] = useState('Home');
-  console.log(currentPage)
   return (
     <div className="App">
-      <h2> Damian Howard </h2> 
-      <nav>
-        <button onClick = {() => setPage('Home')}> Home </button>
-        <button onClick = {() => setPage('Resume')}> Resume </button>
-        <button onClick = {() => setPage("Portfolio")}> Portfolio </button>
-      </nav>
+      <header>
+        <h2> Damian Howard </h2> 
+        <nav>
+          <button onClick = {() => setPage('Home')}> Home </button>
+          <button onClick = {() => setPage('Resume')}> Resume </button>
+          <button onClick = {() => setPage("Portfolio")}> Portfolio </button>
+        </nav>
+      </header>
       <Home activeCheck = {currentPage} />
       <Resume activeCheck= {currentPage} />
       <Portfolio activeCheck= {currentPage}/>

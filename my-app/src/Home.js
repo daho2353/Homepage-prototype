@@ -2,7 +2,6 @@ import React from 'react';
 
 function Home(props)
 {
-    console.log(props.activeCheck)
     if (props.activeCheck === "Home") return(
     <section className="Home-Container">
     <h2> About me </h2>

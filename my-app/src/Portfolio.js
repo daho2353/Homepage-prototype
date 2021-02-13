@@ -5,9 +5,7 @@ function Portfolio(props)
 {
     if (props.activeCheck === "Portfolio") return(
         <section className = "Portfolio-container">
-            <header>
-                <h4> Software Development Projects</h4>
-            </header>
+            <h2> Software Development Projects</h2>
             <Project title="hey" website="_blank" image="title.jpg" projectText="words"/>
         </section>
     )

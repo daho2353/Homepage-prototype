@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h2> Damian Howard </h2> 
+        <h1> Damian Howard </h1> 
         <nav>
           <button onClick = {() => setPage('Home')}> Home </button>
           <button onClick = {() => setPage('Resume')}> Resume </button>

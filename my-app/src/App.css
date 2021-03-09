@@ -10,7 +10,7 @@ body{
 
 h1{
   padding-top: 8px;
-  color: rgb(255,255,255 )
+  color: rgb(255,255,255);
 }
 
 h2{
@@ -62,4 +62,17 @@ p{
 
 .icon{
   padding-left: 10px;
+}
+
+.CaptionedImage{
+  display:inline-block;
+}
+
+.caption{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.underlined{
+  text-decoration: underline;
 }

@@ -17,6 +17,10 @@ h2{
   color:rgb(255,255,255);
 }
 
+h3{
+  color: rgb(255,255,255);
+}
+
 header{
   width:100%;
   background-color: rgb(30,30,30);
@@ -60,6 +64,11 @@ p{
   color: white;
 }
 
+.job-description{
+  margin-left:0px;
+  margin-right: 0px;
+}
+
 .icon{
   padding-left: 10px;
 }
@@ -76,3 +85,16 @@ p{
 .underlined{
   text-decoration: underline;
 }
+
+.work-tile{
+  display: inline-block;
+  max-width: 200px;
+  margin: 50px 75px 25px 75px;
+}
+
+.work-tile-button{
+  font-size: .75em;
+  display: inline-block;
+  margin-top: -50px;
+}
+

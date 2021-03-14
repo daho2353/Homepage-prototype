@@ -98,3 +98,13 @@ p{
   margin-top: -50px;
 }
 
+.project-container{
+  display: inline-block;
+  max-width: 200px;
+  margin: 50px 75px 25px 75px;
+}
+
+.project-description{
+  margin-left: 0px;
+  margin-right: 0px;
+}

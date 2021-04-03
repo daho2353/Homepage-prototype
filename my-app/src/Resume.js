@@ -1,5 +1,11 @@
 import React from 'react';
+import SkillTile from './SkillTile.js';
 import WorkTile from './WorkTile.js'
+import ReactIcon from './img/ReactIcon.svg';
+import JavaScriptIcon from './img/JavaScriptIcon.png';
+import GTTIcon from './img/GTTLogo.png';
+import HTMLIcon from './img/HTMLLogo.png';
+import CSSIcon from './img/CSSIcon.png';
 
 //Design concept in Red Notebook
 
@@ -10,40 +16,14 @@ function Resume(props)
         <section className="Resume-Container">
             <h2> Resume </h2>
             <h2 className="underlined"> Skills </h2>
-            <div className = "CaptionedImage">
-                <img width="150px" height="150px"/>
-                <p className = "caption"> Skills - experience </p>
-            </div>
-            <div className = "CaptionedImage">
-                <img width="150px" height="150px"/>
-                <p className = "caption"> Skills - experience </p>
-            </div>
-            <div className = "CaptionedImage">
-                <img width="150px" height="150px"/>
-                <p className = "caption"> Skills - experience </p>
-            </div>
-            <div className = "CaptionedImage">
-                <img width="150px" height="150px"/>
-                <p className = "caption"> Skills - experience </p>
-            </div>
-            <div className = "CaptionedImage">
-                <img width="150px" height="150px"/>
-                <p className = "caption"> Skills - experience </p>
-            </div>
-            <div className = "CaptionedImage">
-                <img width="150px" height="150px"/>
-                <p className = "caption"> Skills - experience </p>
-            </div>
-            <div className = "CaptionedImage">
-                <img width="150px" height="150px"/>
-                <p className = "caption"> Skills - experience </p>
-            </div>
-            <div className = "CaptionedImage">
-                <img width="150px" height="150px"/>
-                <p className = "caption"> Skills - experience </p>
-            </div>
+            <section className="skills">
+                <SkillTile src={ReactIcon} desc = "React JS" experience="4 years"/>
+                <SkillTile src={JavaScriptIcon} desc = "Javascript" experience ="6 years"/>   
+                <SkillTile src={HTMLIcon} desc = "HTML" experience ="6 years"/> 
+                <SkillTile src={CSSIcon} desc = "CSS" experience ="6 years"/>   
+            </section>
             <h2 className="underlined"> Work Experience </h2>
-            <WorkTile desc= "test" task1="task1" task2="task2" task3="task3" task4="task4"/>
+            <WorkTile src={GTTIcon} desc= "test" task1="task1" task2="task2" task3="task3" task4="task4"/>
             <WorkTile desc= "test" task1="task1" task2="task2" task3="task3" task4="task4"/>
             <WorkTile desc= "test" task1="task1" task2="task2" task3="task3" task4="task4"/>
             <WorkTile desc= "test" task1="task1" task2="task2" task3="task3" task4="task4"/>

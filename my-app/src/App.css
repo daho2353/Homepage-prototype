@@ -79,6 +79,8 @@ p{
 }
 
 .caption{
+  margin-top:0px;
+  padding-bottom: 0px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -91,6 +93,16 @@ p{
   display: inline-block;
   max-width: 200px;
   margin: 50px 75px 25px 75px;
+}
+
+.skills{
+  padding-left: 50px;
+}
+
+.skill-tile{
+  display: inline-block;
+  max-width: 200px;
+  margin: 50px 50px 25px 50px;
 }
 
 .work-tile-button{
